@@ -792,6 +792,6 @@ app.get('/balance2', function (req, res) {
 
 
 //add the router
-app.listen(process.env.port || 5000);
+app.listen(port);
 
 console.log('Running at Port 5000');
