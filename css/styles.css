@@ -1,0 +1,78 @@
+.bg-blue-chan {
+	background-color: #fdfdfd!important
+}
+
+.font-white-chan {
+	color: #2F2E41;
+}
+
+.active-chan {
+	color: #2F2E41!important
+}
+
+/* The footer is fixed to the bottom of the page */
+
+.bg-footer {
+	background-color: #1b1b1b;
+}
+
+.copy-bg {
+	background-color: black;
+}
+
+input[type=text_main] {
+	width: 300px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+	background-image: url('Icon\ awesome-search.png');
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+}
+
+input[type=text_main]:focus {
+	width: 100%;
+}
+
+.balance_user_no {
+	background-color: aqua;
+}
+
+
+.bdge {
+    height: 21px;
+    background-color: orange;
+    color: #fff;
+    font-size: 11px;
+    padding: 8px;
+    border-radius: 4px;
+    line-height: 3px
+}
+
+.comments {
+    text-decoration: underline;
+    text-underline-position: under;
+    cursor: pointer
+}
+
+.dot {
+    height: 7px;
+    width: 7px;
+    margin-top: 3px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block
+}
+
+.hit-voting:hover {
+    color: blue
+}
+
+.hit-voting {
+    cursor: pointer
+}

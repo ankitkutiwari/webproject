@@ -1,0 +1,134 @@
+doctype html
+html
+  head
+    title Output
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+body 
+  form(method='GET' action='/competebalance')
+    table
+      tr
+        td
+         input(type='number' min='1' step='1' name='S[0]' required)
+        td #{datas.y[1]}
+ 
+        td +
+ 
+    
+        td
+          input(type='number'  min='1' step='1' name='SO[0]' required)
+        td #{datas.y[3]}
+
+        td ------->>>
+
+        td
+          input(type='number'  min='1' step='1' name='AV[0]' required)
+        td #{datas.y[5]}
+ 
+        td +
+
+        td
+          input(type='number' min='1' step='1' name='MR[0]' required)
+        td #{datas.y[7]}
+
+      tr
+        td
+         input(type='number' min='1' step='1' name='S[2]' required)
+        td #{datas.y[9]}
+ 
+        td +
+ 
+    
+        td
+          input(type='number'  min='1' step='1' name='SO[2]' required)
+        td #{datas.y[11]}
+
+        td ------->>>
+
+        td
+          input(type='number'  min='1' step='1' name='AV[2]' required)
+        td #{datas.y[13]}
+ 
+        td +
+
+        td
+          input(type='number' min='1' step='1' name='MR[2]' required)
+        td #{datas.y[15]}
+
+      tr
+        td
+         input(type='number' min='1' step='1' name='S[3]' required)
+        td #{datas.y[17]}
+ 
+        td +
+ 
+    
+        td
+          input(type='number'  min='1' step='1' name='SO[3]' required)
+        td #{datas.y[19]}
+
+        td ------->>>
+
+        td
+          input(type='number'  min='1' step='1' name='AV[3]' required)
+        td #{datas.y[21]}
+ 
+        td +
+
+        td
+          input(type='number' min='1' step='1' name='MR[3]' required)
+        td #{datas.y[23]}
+
+      tr
+        td
+         input(type='number' min='1' step='1' name='S[4]' required)
+        td #{datas2.y[1]}
+ 
+        td +
+ 
+    
+        td
+          input(type='number'  min='1' step='1' name='SO[4]' required)
+        td #{datas2.y[3]}
+
+        td +
+
+        td
+          input(type='number'  min='1' step='1' name='AV[4]' required)
+        td #{datas2.y[5]}
+ 
+        td ------->>>
+
+        td
+          input(type='number' min='1' step='1' name='MR[4]' required)
+        td #{datas2.y[7]}
+
+      tr
+        td
+         input(type='number' min='1' step='1' name='S[5]' required)
+        td #{datas2.y[9]}
+ 
+        td +
+ 
+    
+        td
+          input(type='number'  min='1' step='1' name='SO[5]' required)
+        td #{datas2.y[11]}
+
+        td +
+
+        td
+          input(type='number'  min='1' step='1' name='AV[5]' required)
+        td #{datas2.y[13]}
+ 
+        td ------->>>
+
+        td
+          input(type='number' min='1' step='1' name='MR[5]' required)
+        td #{datas2.y[15]}
+
+
+      tr
+        td(colspan='2')
+          input.btn.btn-primary(type='submit' value='Submit') 
